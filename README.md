@@ -1,24 +1,35 @@
-# memory-game
+# Vue Memory Game
 
-## Project setup
-```
+This is a simple Memory game build with Vue Framework.
+
+
+## Description
+
+This Memory game is a 4x3 card grid system that counts the amount of turns each time user clicks on two cards. The cards are based on matching two images and if two cards match the cards become disabled.
+
+## Installation
+
+To install the app use yarn install
+```bash
 yarn install
 ```
 
-### Compiles and hot-reloads for development
+or
+
+```bash
+npm install
 ```
+
+## Useage
+
+To run the app use
+
+```bash
 yarn serve
 ```
 
-### Compiles and minifies for production
-```
-yarn build
-```
+or
 
-### Lints and fixes files
+```bash
+npm serve
 ```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
